@@ -1,36 +1,27 @@
 html {
-    height: 100%;
-    width: 100%;
+    font-size: 65.5%;
+    overflow-x: hidden;
   }
   
   body {
+    margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: medium;
   }
   
-  .header {
-    width: auto;
-    height: 200px;
-    background-color: aqua;
-    background-image: url(../images/karpathosbynight.jpeg);
-    color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    /*background-attachment: fixed;*/
-  }
-  
+  /* headings */
   h1 {
+    font-size: 5rem;
     text-align: center;
     text-transform: uppercase;
   }
   
   h2 {
-    
+    font-size: 4rem;
   }
   
   p {
-    
+    font-size: 1.6rem;
   }
   
   .div1 {
@@ -54,10 +45,18 @@ html {
     margin-bottom: 2%;
   }
   
-  nav {
-    text-align: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
+  .sticky-header {
+    background-color: #6fa97b;
+    color: #f4f2c7;
+    position: sticky;
+    display: flex;
+    flex-flow: row;
+    position: -webkit-sticky; /*Safari*/
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5ps solid #f4f2c7;
+    top: 0;
+    z-index: 100;
   }
   
   footer {
