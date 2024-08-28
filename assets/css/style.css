@@ -45,6 +45,16 @@ html {
     margin-bottom: 2%;
   }
   
+  nav a:hover {
+    border-bottom: 5px solid #f4f2c7;
+  }
+
+  .active {
+    background-color: #f4f2c7;
+    padding: 0 5px 0 5px;
+    color: #6fa97b;
+  }
+
   .sticky-header {
     background-color: #6fa97b;
     color: #f4f2c7;
@@ -58,12 +68,79 @@ html {
     top: 0;
     z-index: 100;
   }
+
+  .sticky-header div {
+    color: grey;
+    display: flex;
+  }
+
+  .sticky-header li {
+    margin-right: 1.5rem;
+    font-size: 1.8rem;
+    padding: .5em .5em;
+  }
+
+  .sticky-header nav {
+    overflow: hidden;
+    padding: 10px 20px;
+    margin-right: 5em;
+  }
+
+  .sticky-header a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .logo-wrapper {
+    margin-left: 5em;
+  }
+
+  .nav-menu-wrapper {
+    margin-right: 5em;
+  }
+
+  .nav-menu-items {
+    list-style: none;
+    display: inline-flex;
+  }
   
   footer {
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
     text-align: center;
-    margin-bottom: 2%;
-    padding: 2%;
-    background-color: lightskyblue;
-    border: 2px solid blue
-    
+    background-color: #6fa97b;
+    color: #f4f2c7;
+    border: 2px solid #f4f2c7;
+  }
+
+  .footer-social {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-social a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .footer-social i {
+    margin-right: .5em;
+  }
+
+  .footer-copyright {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .footer-copyright p {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bolder;
   }
