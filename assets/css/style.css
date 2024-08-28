@@ -1,3 +1,4 @@
+/* base css */
 html {
     font-size: 65.5%;
     overflow-x: hidden;
@@ -11,7 +12,7 @@ html {
   
   /* headings */
   h1 {
-    font-size: 5rem;
+    font-size: 3.5rem;
     text-align: center;
     text-transform: uppercase;
   }
@@ -26,7 +27,7 @@ html {
   
   .div1 {
     width: 100%;
-    height: 350px;
+    height: 500px;
     background-color: green;
     margin-bottom: 2%;
   }
@@ -45,26 +46,42 @@ html {
     margin-bottom: 2%;
   }
   
+  /* header navigation and logo */
+  header {
+    box-shadow: 5px 5px 10px #282828;
+  }
+
+  .header-logo {
+    color: #f4f2c7;
+    -webkit-text-stroke: 1px #282828;
+    text-shadow: 2px 2px 5px #282828 inset;
+  }
+
   nav a:hover {
     border-bottom: 5px solid #f4f2c7;
+    -webkit-text-stroke: 1px #282828;
+    text-shadow: 0 2px 2px #282828;
   }
 
   .active {
     background-color: #f4f2c7;
     padding: 0 5px 0 5px;
-    color: #6fa97b;
+    color: #282828;
+    box-shadow: 2px 2px 3px #282828 inset;
   }
 
   .sticky-header {
     background-color: #6fa97b;
     color: #f4f2c7;
+    -webkit-text-stroke: 1px #282828;
+    text-shadow: 0 2px 2px #282828;
     position: sticky;
     display: flex;
     flex-flow: row;
     position: -webkit-sticky; /*Safari*/
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5ps solid #f4f2c7;
+    border-bottom: 5px solid #f4f2c7;
     top: 0;
     z-index: 100;
   }
@@ -103,7 +120,68 @@ html {
     list-style: none;
     display: inline-flex;
   }
+
+  /* hero image */
+  .hero-outer {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    border-bottom: 5px solid #f4f2c7;
+  }
+
+  .hero-image {
+    width: 100%;
+    height: 500px;
+  }
+
+  #home-hero-image {
+    background: url(../images/beach1-karpathos.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: #f4f2c7;
+  }
+
+  #about-hero-image {
+    background: url(../images/Olymbos-city-2.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: #f4f2c7;
+  }
+
+  #book-hero-image {
+    background: url(../images/karpathos_by_night.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: #f4f2c7;
+  }
+
+  #contact-hero-image {
+    background: url(../images/karpathos-nameinstones.jpg) no-repeat center center;
+    background-size: cover;
+    background-color: #f4f2c7;
+  }
+
+  .hero-overlay-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    width: 50%;
+    height: 160px;
+    background-color: #f4f2c7;
+    border-top: 5px solid #6fa97b;
+    border-bottom: 5px solid #6fa97b;
+    bottom: -70px;
+    padding: 0 0 0 3em;
+    position: absolute;
+    box-shadow: 3px 3px 7px #282828;
+  }
+
+  .hero-overlay-text h2 {
+    color: #6fa97b;
+    -webkit-text-stroke: 1px #282828;
+    text-shadow: 0px 3px 3px #282828;
+  }
   
+  /* footer - social and copyright */
   footer {
     width: 100%;
     padding-top: 1.5em;
@@ -111,7 +189,10 @@ html {
     text-align: center;
     background-color: #6fa97b;
     color: #f4f2c7;
-    border: 2px solid #f4f2c7;
+    -webkit-text-stroke: 1px #282828;
+    text-shadow: 0 1px 1px #282828;
+    border-top: 2px solid #f4f2c7;
+    box-shadow: 5px 0px 10px #282828;
   }
 
   .footer-social {
@@ -128,7 +209,7 @@ html {
   }
 
   .footer-social i {
-    margin-right: .5em;
+    margin-right: .25em;
   }
 
   .footer-copyright {
