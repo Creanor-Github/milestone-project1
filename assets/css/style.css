@@ -40,10 +40,14 @@ html {
   }
   
   .div3 {
-    width: 100%;
-    height: 350px;
+    /*margin: auto;
+    width: 50%;
+    height: auto;
+    border: 3px solid green;
+    padding: 10px;*/
+    /*height: 350px;
     background-color: red;
-    margin-bottom: 2%;
+    margin-bottom: 2%;*/
   }
   
   /* header navigation and logo */
@@ -153,25 +157,30 @@ html {
   }
 
   #contact-hero-image {
-    background: url(../images/karpathos-nameinstones.jpg) no-repeat center center;
+    background: url(../images/karpathos-nameinstonesver2.webp) no-repeat center center;
     background-size: cover;
     background-color: #f4f2c7;
   }
 
   .hero-overlay-text {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    /*display: flex;
+    justify-content: space-between;*/
+    /*align-items: center;*/
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin: auto;
     width: 50%;
-    height: 160px;
+    height: auto;
+    /*height: 160px;*/
     background-color: #f4f2c7;
     border-top: 5px solid #6fa97b;
     border-bottom: 5px solid #6fa97b;
-    bottom: -70px;
+    top: -70px;
+    /*bottom: -70px;*/
+    /*right: 600px;*/
+    opacity: 0.95;
     padding: 0 0 0 3em;
-    position: absolute;
+    position: relative;
     box-shadow: 3px 3px 7px #282828;
   }
 
@@ -179,6 +188,24 @@ html {
     color: #6fa97b;
     -webkit-text-stroke: 1px #282828;
     text-shadow: 0px 3px 3px #282828;
+  }
+
+  .hero-text-outer {
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+    height: auto;
+    border: 3px solid green;
+    padding: 10px;
+    /*width: 80%;
+    height: 300px;
+    position: relative;
+    background-color: #fff;*/
+  }
+
+  .hero-text {
+    display: flex;
+    justify-content: baseline;
   }
   
   /* footer - social and copyright */
