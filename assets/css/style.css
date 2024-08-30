@@ -57,27 +57,27 @@ html {
 
   .header-logo {
     color: #f4f2c7;
-    -webkit-text-stroke: 1px #282828;
-    text-shadow: 2px 2px 5px #282828 inset;
+    /*-webkit-text-stroke: 1px #282828;*/
+    text-shadow: 2px 2px 5px #282828;
   }
 
   nav a:hover {
     border-bottom: 5px solid #f4f2c7;
-    -webkit-text-stroke: 1px #282828;
-    text-shadow: 0 2px 2px #282828;
+    /*-webkit-text-stroke: 1px #282828;*/
+    /*text-shadow: 0 2px 2px #282828;*/
   }
 
   .active {
     background-color: #f4f2c7;
     padding: 0 5px 0 5px;
-    color: #282828;
-    box-shadow: 2px 2px 3px #282828 inset;
+    color: #6fa97b;
+    /*box-shadow: 2px 2px 3px #282828 inset;*/
   }
 
   .sticky-header {
     background-color: #6fa97b;
     color: #f4f2c7;
-    -webkit-text-stroke: 1px #282828;
+    /*-webkit-text-stroke: 1px #282828;*/
     text-shadow: 0 2px 2px #282828;
     position: sticky;
     display: flex;
@@ -216,7 +216,7 @@ html {
     text-align: center;
     background-color: #6fa97b;
     color: #f4f2c7;
-    -webkit-text-stroke: 1px #282828;
+    /*-webkit-text-stroke: 1px #282828;*/
     text-shadow: 0 1px 1px #282828;
     border-top: 2px solid #f4f2c7;
     box-shadow: 5px 0px 10px #282828;
