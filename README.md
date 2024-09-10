@@ -17,7 +17,7 @@ On the site, you will see information about Travel to Greece and what they can o
 
 ![NAvigation screenshot](assets/images/readme_files/navigation-screenshot.webp)
 
-+ ** Main home page **
++ **Main home page**
 
   + There is pictures and text. The text describes about Karpathos, an Island in Greece, and all of the pictures is from Karpathos.
 
@@ -27,14 +27,14 @@ On the site, you will see information about Travel to Greece and what they can o
 
   ![Main home page](assets/images/readme_files/main-home-page3.webp)
 
-+ ** The Footer
++ **The Footer**
 
   +The footer has linkes to Facebook and Twitter (X) and Copyright notice.
   +The footer is visible on all pages on the site.
 
   ![Footer screenshot](assets/images/readme_files/footer-screenshot.webp)
 
-+ ** The About Us page **
++ **The About Us page**
 
   + At this page the company, Travel to Greece, is informing all visitors who they are and what they can offer for services.
 
@@ -43,14 +43,14 @@ On the site, you will see information about Travel to Greece and what they can o
   ![About 3 Team](assets/images/readme_files/about_team2.webp)
   ![About 4](assets/images/readme_files/about3.webp)
 
-+ ** The Booking Page **
++ **The Booking Page**
 
   + At this page you can book a travel to one of three locations in Greece. All of them are Islands.
   + This form redirect to a success page.
 
   ![Bookin page](assets/images/readme_files/book-a-travel.webp)
 
-+ ** The contact page **
++ **The contact page**
 
   + This contact page has a google map to display the location in Karpathos. Becaous the company does not exist this is the lovation to the airport at Karpathos.
   + There is also a adress, and this is also a fake adress becous the company does not exist.
@@ -58,7 +58,7 @@ On the site, you will see information about Travel to Greece and what they can o
 
   ![Contact screenshot](assets/images/readme_files/contact-screenshot.webp)
 
-+ ** Testing **
++ **Testing**
 
   + I have testes the this page works in different browsers like, Chrome, Firefox, Safari.
   + I have tested the page and confirmed the it is responsive. That the site looks over all good and all functions working att all standard screen sizes
