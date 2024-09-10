@@ -61,7 +61,7 @@
     <div class="main-book-box">
       <h2>Fill in the information below to book a travel</h2>
       <div class="middle-box">
-        <form method="post" action="booking-success.html">
+        <form action="booking-success.html">
           <fieldset>
             <legend>Booking information</legend>
               <fieldset>
@@ -75,6 +75,9 @@
                 <label for="email">Email Adress:</label>
                 <input class="text-input" id="email" name="email_adress" type="email" required>
 
+                <label for="phonenumber">Phone:</label>
+                <input class="text-input" id="phonenumber" name="phone_number" type="number">
+
                 <label for="lname">Street Name:</label>
                 <input class="text-input" id="street" name="street_name" type="text" required>
 
@@ -87,6 +90,21 @@
               
               <fieldset>
                 <legend>Travel Information</legend>
+                <label for="date">When do you want to travel:</label>
+                <input class="text-input" id="date" name="date" type="date" required>
+
+                <h3>Were do you want to travel:</h3>
+                <label for="crete">Crete</label>
+                <input type="radio" id="crete" name="location" value="Crete" required>
+                <label for="rhodes">Rhodes</label>
+                <input type="radio" id="rhodes" name="location" value="Rhodes" required>
+                <label for="karpathos">Karpathos</label>
+                <input type="radio" id="karpathos" name="location" value="Karpathos" required>
+                <br><br>
+                <label for="message">Tell us about you and what you want:</label>
+                <textarea class="text-area" id="message" name="message" required></textarea>
+
+                <input class="submit-button" type="submit" value="Book travel">
 
               </fieldset>
           </fieldset>
