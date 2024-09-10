@@ -1,10 +1,10 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![logo](assets/images/logo.webp)
 
-Welcome Thomas Eriksson,
+Travel to greece is a site aimed at those who want to go on holiday to Greece or one of its islands. The site wants to target those who want a personal trip that is based on the customer's wishes, therefore one trip is not the same as the other. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+On the site, you will see information about Travel to Greece and what they can offer, as well as advertising about the island of Karpathos, which is a travel destination that they have specialized in.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+!
 
 ## Gitpod Reminders
 
