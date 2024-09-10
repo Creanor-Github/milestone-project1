@@ -79,6 +79,24 @@ On the site, you will see information about Travel to Greece and what they can o
 + **Unfixed bugs**
   + There is no unfixed bugs. Only some layout issues with the forms on smaller screens.
 
++ **Deployment**
 
+  + The site was deployed to GitHub pages. The steps are as follows:
+    + In the Github repository, go to settings.
+    + Click on Pages-link on the menu to the left.
+    + From the source section drop down list, select the main branch and save.
+    + Then I got a link to my page on Github.
+
+    Here is the live link to the site - [Travel to Greece](https://creanorcode.github.io/project_1/index.html) 
+
+
++ **Credits**
+
+  + Content
+    + All icons are from [Font Awesome](https://fontawesome.com/)
+
+  + Media
+    + All images from Karpathos have been taken by me.
+    + The portrait is fake and made by [Openart free](https://openart.ai/create?ai_model=epinikion%2FepiCRealism)
 
 
