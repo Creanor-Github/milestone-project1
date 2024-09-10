@@ -65,4 +65,20 @@ On the site, you will see information about Travel to Greece and what they can o
     using devtool device tollbar.
   + I have confirmed that the forms on the site is working as they should and was intended to work.
 
++ **Validator testing**
+
+  + HTML
+    + No error or warnings was returned when passing through the official W3C validator.
+  + CSS
+    + No errors were found when passing through the official (Jigsaw) validator.
+  + Accessibility
+    + I confirmed that the colors and fonts chosen are easy to read and accessible by running it through Lighthouse in devtools.
+
+    ![Lighthouse-screenshot](assets/images/readme_files/lighthouse.webp)
+  
++ **Unfixed bugs**
+  + There is no unfixed bugs. Only some layout issues with the forms on smaller screens.
+
+
+
 
