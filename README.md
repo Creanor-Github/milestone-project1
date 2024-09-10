@@ -4,7 +4,7 @@ Travel to greece is a site aimed at those who want to go on holiday to Greece or
 
 On the site, you will see information about Travel to Greece and what they can offer, as well as advertising about the island of Karpathos, which is a travel destination that they have specialized in.
 
-!
+![A screenimage of the site](assets/images/screenimage.png)
 
 ## Gitpod Reminders
 
